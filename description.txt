@@ -1,0 +1,59 @@
+Hi Nawazish,
+
+Congratulations on winning the contractor selection!  Below is the full test project I need you to complete.  You have already started working on it via the sample you sent.  Using your code, on the search results table page, we'll need to scrape the following fields:
+
+1.	Solicitation name
+2.	Solicitation number
+3.	Solicitation type
+4.	Posted on date
+
+For each record, the Solicitation Name is a link, the script will need to follow that link to that record's detail page.  That page has multiple tabs.  It starts on the Notice Details tab.  From that page, we need to scrape the following data:
+
+5.	Agency
+6.	Office
+7.	Location
+8.	Page URL
+9.	Synopsis
+10.	Contracting Office Address Street
+11.	Contracting Office City
+12.	Contracting Office State
+13.	Contracting Office Zip Code
+14.	Contracting Office Country
+15.	Place of Performance
+### Primary Point of Contact – may sometimes be called “Point of Contact(s):”
+16.	Primary Point of Contact First Name
+17.	Primary Point of Contact Last Name
+18.	Primary Point of Contact Title
+19.	Primary Point of Contact Email
+20.	Primary Point of Contact Phone
+21.	Primary Point of Contact Fax
+### Secondary Point of Contact Fields may or may not be present
+22.	Secondary Point of Contact First Name
+23.	Secondary Point of Contact Last Name
+24.	Secondary Point of Contact Title
+25.	Secondary Point of Contact Email
+26.	Secondary Point of Contact Phone
+27.	Secondary Point of Contact Fax
+
+###General Information Bar (Several of these may or may not be present)
+28.	Original Posted Date 
+29.	Posted Date
+30.	Response Date
+31.	Original Response Date
+32.	Archive Policy
+33.	Original Archive Date
+34.	Archive Date
+35.	Original Set Aside
+36.	Set Aside
+###Links to scrape from the page
+37.	Watch This Opportunity
+38.	Add Me To Interested Vendors (this may or may not be present)
+39.	Packages Tab Link (this may or may not be present)
+40.	Interested Vendors Tab Link (note this may or may not be present)
+
+
+Please start the scraping script now.  While you work on that, I'll set up a MySQL database and send you access info to work with it.  What is your IP address so I can approve you to access the database?
+
+I am including screen shots to help explain which data points I want you to scrape.  Some elements that I want scraped may only appear on certain projects (ie. not all projects will specify an original start date).  Please, let me know if you have any questions.
+
+Thanks,
