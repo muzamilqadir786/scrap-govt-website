@@ -1,7 +1,3 @@
-Hi Nawazish,
-
-Congratulations on winning the contractor selection!  Below is the full test project I need you to complete.  You have already started working on it via the sample you sent.  Using your code, on the search results table page, we'll need to scrape the following fields:
-
 1.	Solicitation name
 2.	Solicitation number
 3.	Solicitation type
@@ -50,10 +46,3 @@ For each record, the Solicitation Name is a link, the script will need to follow
 38.	Add Me To Interested Vendors (this may or may not be present)
 39.	Packages Tab Link (this may or may not be present)
 40.	Interested Vendors Tab Link (note this may or may not be present)
-
-
-Please start the scraping script now.  While you work on that, I'll set up a MySQL database and send you access info to work with it.  What is your IP address so I can approve you to access the database?
-
-I am including screen shots to help explain which data points I want you to scrape.  Some elements that I want scraped may only appear on certain projects (ie. not all projects will specify an original start date).  Please, let me know if you have any questions.
-
-Thanks,
